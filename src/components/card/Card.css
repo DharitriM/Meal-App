@@ -1,0 +1,38 @@
+.card {
+    padding: 1rem;
+    /* box-shadow: 0 2px 8px rgba(0,0,0,.25); */
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #4b4747;
+    align-items: center;
+    text-align: start;
+
+}
+.card h3{
+    color: rgb(196, 113, 6);
+}
+.card p{
+    font-style: italic;
+}
+
+.card button{
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: #fff;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.card label{
+    font-weight: 600;
+}

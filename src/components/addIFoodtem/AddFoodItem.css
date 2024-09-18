@@ -1,0 +1,50 @@
+.addFoodItem {
+    padding: 4rem 1rem;
+    box-shadow: 0 4px 10px rgba(201, 79, 23, 0.733);
+    border-radius: 14px;
+    background-color: #fcf9f7;
+    text-align: center;
+    max-width: 64rem;
+    width: 40%;
+    margin: 10% auto;
+    line-height: 35px;
+}
+
+.addFoodItem label{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(160, 72, 9);
+}
+
+.addFoodItem input{
+    width: 150px;
+    border-radius: 8px;
+    background-color: rgb(235, 219, 207);
+    border-color: chocolate;
+}
+
+.addFoodItem button{
+    font: inherit;
+    /* cursor: pointer; */
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: #fff;
+    padding: 0.1rem 1.5rem;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.addFoodItem button:hover{
+    cursor: pointer;
+    border: 1px solid #8a2b06;
+    background-color: #cf9c7e;
+    color: #8a2b06;
+    padding: 0.1rem 1.5rem;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 10px;
+}
